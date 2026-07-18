@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Component Library</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- HEADER SECTION -->
+    <!-- ============================================ -->
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="#">
+                    <i class="fas fa-cubes"></i>
+                    <span>LandingPro</span>
+                </a>
+            </div>
+            <div class="header-actions">
+                <a href="#" class="btn btn-outline">Login</a>
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================ -->
+    <!-- STICKY NAVBAR -->
+    <!-- ============================================ -->
+    <nav id="navbar" class="sticky-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#">
+                    <i class="fas fa-cubes"></i>
+                    <span>LandingPro</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION -->
+    <!-- ============================================ -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Build Stunning <span>Landing Pages</span></h1>
+                <p>Create professional, responsive landing pages with our premium component library. Perfect for internships and portfolio projects.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary btn-large">Get Started</a>
+                    <a href="#" class="btn btn-outline btn-large">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <span><i class="fas fa-check-circle"></i> 100+ Components</span>
+                    <span><i class="fas fa-check-circle"></i> 500+ Users</span>
+                    <span><i class="fas fa-check-circle"></i> 4.9/5 Rating</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Hero Illustration" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- TRUSTED COMPANIES SECTION -->
+    <!-- ============================================ -->
+    <section id="trusted" class="trusted-section">
+        <div class="trusted-container">
+            <p class="trusted-label">Trusted by 500+ companies worldwide</p>
+            <div class="trusted-logos">
+                <img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop&crop=center" alt="Company 1" />
+                <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?w=120&h=40&fit=crop&crop=center" alt="Company 2" />
+                <img src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=120&h=40&fit=crop&crop=center" alt="Company 3" />
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=120&h=40&fit=crop&crop=center" alt="Company 4" />
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=120&h=40&fit=crop&crop=center" alt="Company 5" />
+                <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=120&h=40&fit=crop&crop=center" alt="Company 6" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- ABOUT SECTION -->
+    <!-- ============================================ -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=400&fit=crop" alt="About Us" />
+            </div>
+            <div class="about-content">
+                <h2>About Our Component Library</h2>
+                <p>We provide reusable, production-ready HTML components for building professional landing pages. Perfect for internships and quick projects.</p>
+                <ul class="about-list">
+                    <li><i class="fas fa-check"></i> 100% semantic HTML5</li>
+                    <li><i class="fas fa-check"></i> Mobile-first responsive design</li>
+                    <li><i class="fas fa-check"></i> Clean & well-commented code</li>
+                    <li><i class="fas fa-check"></i> Ready for any CSS framework</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FEATURES SECTION (6 CARDS) -->
+    <!-- ============================================ -->
+    <section id="features" class="features-section">
+        <div class="features-container">
+            <div class="section-header">
+                <h2>Our Features</h2>
+                <p>Everything you need to build professional landing pages</p>
+            </div>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-code"></i></div>
+                    <h3>Semantic HTML</h3>
+                    <p>Clean, accessible, and SEO-friendly HTML5 markup with proper semantic tags.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Responsive Design</h3>
+                    <p>Fully responsive components that work perfectly on all devices and screen sizes.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-puzzle-piece"></i></div>
+                    <h3>Reusable Components</h3>
+                    <p>Modular components that can be easily copied, pasted, and customized.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    <h3>Performance Optimized</h3>
+                    <p>Lightweight and fast-loading code with no unnecessary dependencies.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Modern Design</h3>
+                    <p>Clean, professional design with proper spacing and visual hierarchy.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-document"></i></div>
+                    <h3>Well Documented</h3>
+                    <p>Extensive comments and documentation for easy understanding and modification.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SERVICES SECTION (6 CARDS) -->
+    <!-- ============================================ -->
+    <section id="services" class="services-section">
+        <div class="services-container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>What we offer to help you succeed</p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Build responsive, modern websites with our component library.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile Optimization</h3>
+                    <p>Ensure your landing pages look perfect on all devices.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-search"></i></div>
+                    <h3>SEO Friendly</h3>
+                    <p>Semantic markup that helps your pages rank better in search engines.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful, user-friendly designs with proper visual hierarchy.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-code-branch"></i></div>
+                    <h3>Component Library</h3>
+                    <p>Ready-to-use components for rapid development.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-headset"></i></div>
+                    <h3>24/7 Support</h3>
+                    <p>Get help whenever you need it for your projects.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- STATISTICS SECTION -->
+    <!-- ============================================ -->
+    <section id="statistics" class="statistics-section">
+        <div class="statistics-container">
+            <div class="stat-item">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Components</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Countries</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">4.9</span>
+                <span class="stat-label">Average Rating</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PORTFOLIO SECTION (8 CARDS) -->
+    <!-- ============================================ -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="portfolio-container">
+            <div class="section-header">
+                <h2>Our Portfolio</h2>
+                <p>Some of our recent projects</p>
+            </div>
+            <div class="portfolio-grid">
+                <article class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop" alt="E-Commerce Landing Page" />
+                    <div class="portfolio-info">
+                        <h3>E-Commerce Landing Page</h3>
+                        <span class="portfolio-category">Web Development</span>
+                    </div>
+                </article>
+                <article class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&h=200&fit=crop" alt="Corporate Website" />
+                    <div class="portfolio-info">
+                        <h3>Corporate Website</h3>
+                        <span class="portfolio-category">Corporate</span>
+                    </div>
+                </article>
+                <article class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?w=300&h=200&fit=crop" alt="Mobile App Landing" />
+                    <div class="portfolio-info">
+                        <h3>Mobile App Landing</h3>
+                        <span class="portfolio-category">UI/UX Design</span>
+                    </div>
+                </article>
+                <article class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=200&fit=crop" alt="Portfolio Template" />
+                    <div class="portfolio-info">
+                        <h3>Portfolio Template</h3>
+                        <span class="portfolio-category">Design</span>
+                    </div>
+                </article>
+                <article class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&h=200&fit=crop" alt="Dashboard UI" />
+                    <div class="portfolio-info">
+                        <h3>Dashboard UI</h3>
+                        <span class="portfolio-category">Development</span>
+                    </div>
+                </article>
+                <article class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=300&h=200&fit=crop" alt="Blog Platform" />
+                    <div class="portfolio-info">
+                        <h3>Blog Platform</h3>
+                        <span class="portfolio-category">Web Design</span>
+                    </div>
+                </article>
+                <article class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=300&h=200&fit=crop" alt="Social Media App" />
+                    <div class="portfolio-info">
+                        <h3>Social Media App</h3>
+                        <span class="portfolio-category">UI/UX</span>
+                    </div>
+                </article>
+                <article class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=300&h=200&fit=crop" alt="Landing Page Template" />
+                    <div class="portfolio-info">
+                        <h3>Landing Page Template</h3>
+                        <span class="portfolio-category">Design</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- TEAM SECTION (4 MEMBERS) -->
+    <!-- ============================================ -->
+    <section id="team" class="team-section">
+        <div class="team-container">
+            <div class="section-header">
+                <h2>Our Team</h2>
+                <p>Meet the people behind the components</p>
+            </div>
+            <div class="team-grid">
+                <article class="team-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="John Doe - CEO" />
+                    <h3>John Doe</h3>
+                    <span class="team-role">CEO & Founder</span>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </article>
+                <article class="team-card">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=face" alt="Jane Smith - Designer" />
+                    <h3>Jane Smith</h3>
+                    <span class="team-role">UI/UX Designer</span>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </article>
+                <article class="team-card">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=face" alt="Mike Johnson - Developer" />
+                    <h3>Mike Johnson</h3>
+                    <span class="team-role">Frontend Developer</span>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </article>
+                <article class="team-card">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face" alt="Sarah Williams - Manager" />
+                    <h3>Sarah Williams</h3>
+                    <span class="team-role">Project Manager</span>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PRICING SECTION (3 PLANS) -->
+    <!-- ============================================ -->
+    <section id="pricing" class="pricing-section">
+        <div class="pricing-container">
+            <div class="section-header">
+                <h2>Pricing Plans</h2>
+                <p>Choose the plan that fits your needs</p>
+            </div>
+            <div class="pricing-grid">
+                <article class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount">19</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 50+ Components</li>
+                        <li><i class="fas fa-check"></i> Basic Support</li>
+                        <li><i class="fas fa-check"></i> 1 Project</li>
+                        <li><i class="fas fa-times"></i> Premium Support</li>
+                        <li><i class="fas fa-times"></i> Team Access</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Get Started</a>
+                </article>
+                <article class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount">49</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 100+ Components</li>
+                        <li><i class="fas fa-check"></i> Premium Support</li>
+                        <li><i class="fas fa-check"></i> 5 Projects</li>
+                        <li><i class="fas fa-check"></i> Team Access</li>
+                        <li><i class="fas fa-check"></i> Priority Updates</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </article>
+                <article class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount">99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited Components</li>
+                        <li><i class="fas fa-check"></i> 24/7 Support</li>
+                        <li><i class="fas fa-check"></i> Unlimited Projects</li>
+                        <li><i class="fas fa-check"></i> Custom Solutions</li>
+                        <li><i class="fas fa-check"></i> Dedicated Manager</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Get Started</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- TESTIMONIAL SECTION -->
+    <!-- ============================================ -->
+    <section id="testimonial" class="testimonial-section">
+        <div class="testimonial-container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Real feedback from real users</p>
+            </div>
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"This component library saved us weeks of development time. The code is clean and well-organized."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=60&h=60&fit=crop&crop=face" alt="Client 1" />
+                        <div>
+                            <h4>Alice Johnson</h4>
+                            <span>CEO, TechCorp</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Perfect for my internship project. The components are easy to use and customize."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face" alt="Client 2" />
+                        <div>
+                            <h4>Bob Smith</h4>
+                            <span>Intern Developer</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Excellent quality and attention to detail. The responsive design works flawlessly."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=60&h=60&fit=crop&crop=face" alt="Client 3" />
+                        <div>
+                            <h4>Carol Davis</h4>
+                            <span>Product Manager</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FAQ SECTION -->
+    <!-- ============================================ -->
+    <section id="faq" class="faq-section">
+        <div class="faq-container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions</p>
+            </div>
+            <div class="faq-grid">
+                <article class="faq-item">
+                    <h3>What is this component library?</h3>
+                    <p>A collection of reusable HTML components for building professional landing pages.</p>
+                </article>
+                <article class="faq-item">
+                    <h3>Is it free to use?</h3>
+                    <p>Yes, this component library is completely free for personal and commercial use.</p>
+                </article>
+                <article class="faq-item">
+                    <h3>What technologies are used?</h3>
+                    <p>Pure HTML5, CSS3, and JavaScript. No frameworks or libraries required.</p>
+                </article>
+                <article class="faq-item">
+                    <h3>Can I customize the components?</h3>
+                    <p>Absolutely! All components are designed to be easily customizable.</p>
+                </article>
+                <article class="faq-item">
+                    <h3>Is it responsive?</h3>
+                    <p>Yes, all components are fully responsive and work on all devices.</p>
+                </article>
+                <article class="faq-item">
+                    <h3>How do I get started?</h3>
+                    <p>Simply download the HTML files and start building your landing page.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- NEWSLETTER SECTION -->
+    <!-- ============================================ -->
+    <section id="newsletter" class="newsletter-section">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with new components and features</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required />
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CONTACT SECTION -->
+    <!-- ============================================ -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Main Street, City, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 234 567 8900</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@landingpro.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER SECTION -->
+    <!-- ============================================ -->
+    <footer id="footer" class="footer-section">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-cubes"></i>
+                        <span>LandingPro</span>
+                    </a>
+                    <p>Professional landing page components built with HTML5.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LandingPro. All rights reserved. Made with <i class="fas fa-heart"></i>.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
